@@ -1,0 +1,28 @@
+.box {
+  padding: 20px;
+  text-align: center;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  font-size: 1rem;
+
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #c0c0c0;
+  color: #c0c0c0;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 10%);
+  border: 1px solid #F08080;
+  color: #F08080;
+}
