@@ -9,6 +9,8 @@ export default function Numbering() {
       <button className="button" onClick={() => setNumber(number+1)}>+</button>
       <span className="number">{number}</span>
       <button className="button" onClick={() => setNumber(number-1)}>-</button>
+
+      <span>This is test</span>
     </section>
   );
 }
